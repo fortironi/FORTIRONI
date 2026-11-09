@@ -1,0 +1,8 @@
+{
+  "name": "zona-final-multiplayer",
+  "version": "1.0.0",
+  "description": "Zona Final – battle royale multiplayer para amigos",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" }
+}
