@@ -1,7 +1,7 @@
 // Zona Final – servidor multiplayer (sem dependências, só Node.js >= 16)
 // Uso: node server.js   (porta 3000, ou a variável PORT)
 const http = require('http'), fs = require('fs'), path = require('path'), crypto = require('crypto');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3005;
 const MAX_PLAYERS = 10;
 const GUID = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11';
 const RELAY = new Set(['p', 'shot', 'hit', 'dead', 'take', 'cx', 'bots', 'bhit', 'bd']);
